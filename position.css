@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+
+}
+body
+{
+  margin: 0;
+  height: 100%;
+  overflow:hidden;
+  background-image: url(../books.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.books{
+  position: absolute;
+  
+
+}
+.overlay{
+  position: relative;
+  z-index: 1;
+  padding: 40px 60px;
+  border-radius: 20px;
+  background-color: darkgoldenrod;
+ 
+  color:black;
+  text-align: center;
+ 
+    box-shadow: 10px 10px 2px rgb(222, 170, 39);
+}
+button{
+      border-radius: 8px;
+      background-color: darkcyan;
+      }
